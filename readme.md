@@ -1,2 +1,2 @@
 laravelの勉強用
-todoリスト作成予定
+todoリスト作成中
