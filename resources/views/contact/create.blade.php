@@ -15,7 +15,8 @@
                     @endif
 
                     create
-                    <form methot="POST"action="">
+                    <form methot="POST"action="{{route('contact.store}}">
+                      @csrf
                       氏名
                     <input type="text" name="your_name">
                     <br>
