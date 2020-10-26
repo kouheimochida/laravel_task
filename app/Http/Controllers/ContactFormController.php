@@ -39,7 +39,7 @@ class ContactFormController extends Controller
     public function store(Request $request)
     {
         //
-        $contact = new ContactForm;
+        $contact = new contactForm;
         $contact->$your_name = $request->input('your_name');
         $contact->$title = $request->input('title');
         $contact->$email = $request->input('email');
